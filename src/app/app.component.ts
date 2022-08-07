@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-    blocked = true;
+    blocked = false;
 
     toggleBlocked(): void {
         this.blocked = !this.blocked;

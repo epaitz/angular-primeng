@@ -8,11 +8,11 @@ import { BlockUI } from 'primeng/blockui';
 })
 export class BlockableContainerDivComponent implements OnInit {
 
-    @ViewChild('loading', { static: false}) set loadingBlockUI(loadingBlockUI: BlockUI) {
-        if (loadingBlockUI != null) {
-            loadingBlockUI.blocked = loadingBlockUI.blocked;
-        }
-    }
+    // @ViewChild('loading', { static: false}) set loadingBlockUI(loadingBlockUI: BlockUI) {
+    //     if (loadingBlockUI != null) {
+    //         loadingBlockUI.blocked = loadingBlockUI.blocked;
+    //     }
+    // }
 
     @Input() style: any;
     @Input() class: string;
